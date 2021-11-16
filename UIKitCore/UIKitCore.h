@@ -2,7 +2,7 @@
 //  UIKitCore.h
 //  UIKitCore
 //
-//  Created by mac on 2021/11/16.
+//  Copyright (c) 2007-2018 Apple Inc. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
