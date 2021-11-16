@@ -6,6 +6,7 @@
 //
 
 #import "UIViewController.h"
+#import "UIViewControllerPrivate.h"
 
 @implementation UIViewController
 

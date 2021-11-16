@@ -9,4 +9,12 @@
 
 @interface UIViewController : NSObject
 
+- (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
+
+- (void)didMoveToParentViewController;
+
++ (BOOL)doesOverrideViewControllerMethod:(SEL)method inBaseClass:(Class)baseClass;
+
+- (long long)preferredInterfaceOrientationForPresentation;
+
 @end

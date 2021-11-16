@@ -12,6 +12,17 @@
 		0423E4CB2744018B00E547D4 /* UIViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0423E4CA2744018B00E547D4 /* UIViewController.h */; };
 		0423E4CE274401C500E547D4 /* UIViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423E4CD274401C500E547D4 /* UIViewController.m */; };
 		0423E4D22744021E00E547D4 /* UIKitDefines.h in Headers */ = {isa = PBXBuildFile; fileRef = 0423E4D12744021E00E547D4 /* UIKitDefines.h */; };
+		0423E4E0274404E900E547D4 /* dyld_priv.h in Headers */ = {isa = PBXBuildFile; fileRef = 0423E4D5274404E900E547D4 /* dyld_priv.h */; };
+		0423E4E1274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 0423E4D6274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.h */; };
+		0423E4E2274404E900E547D4 /* UIToolbar.h in Headers */ = {isa = PBXBuildFile; fileRef = 0423E4D7274404E900E547D4 /* UIToolbar.h */; };
+		0423E4E3274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423E4D8274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.m */; };
+		0423E4E4274404E900E547D4 /* UILayoutContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423E4D9274404E900E547D4 /* UILayoutContainerView.m */; };
+		0423E4E5274404E900E547D4 /* UILayoutContainerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0423E4DA274404E900E547D4 /* UILayoutContainerView.h */; };
+		0423E4E6274404E900E547D4 /* UILayoutContainerViewDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0423E4DB274404E900E547D4 /* UILayoutContainerViewDelegate.h */; };
+		0423E4E7274404E900E547D4 /* UINavigationTransitionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 0423E4DC274404E900E547D4 /* UINavigationTransitionView.h */; };
+		0423E4E8274404E900E547D4 /* UINavigationTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423E4DD274404E900E547D4 /* UINavigationTransitionView.m */; };
+		0423E4E9274404E900E547D4 /* UIToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423E4DE274404E900E547D4 /* UIToolbar.m */; };
+		0423E4EA274404E900E547D4 /* UIViewControllerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0423E4DF274404E900E547D4 /* UIViewControllerPrivate.h */; };
 		04995A192743EFDE00D64B5E /* UIKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 04995A172743EFDE00D64B5E /* UIKitCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -21,6 +32,17 @@
 		0423E4CA2744018B00E547D4 /* UIViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewController.h; sourceTree = "<group>"; };
 		0423E4CD274401C500E547D4 /* UIViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIViewController.m; sourceTree = "<group>"; };
 		0423E4D12744021E00E547D4 /* UIKitDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIKitDefines.h; sourceTree = "<group>"; };
+		0423E4D5274404E900E547D4 /* dyld_priv.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dyld_priv.h; sourceTree = "<group>"; };
+		0423E4D6274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _UINavigationControllerVisualStyleFactory.h; sourceTree = "<group>"; };
+		0423E4D7274404E900E547D4 /* UIToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIToolbar.h; sourceTree = "<group>"; };
+		0423E4D8274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _UINavigationControllerVisualStyleFactory.m; sourceTree = "<group>"; };
+		0423E4D9274404E900E547D4 /* UILayoutContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UILayoutContainerView.m; sourceTree = "<group>"; };
+		0423E4DA274404E900E547D4 /* UILayoutContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILayoutContainerView.h; sourceTree = "<group>"; };
+		0423E4DB274404E900E547D4 /* UILayoutContainerViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UILayoutContainerViewDelegate.h; sourceTree = "<group>"; };
+		0423E4DC274404E900E547D4 /* UINavigationTransitionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UINavigationTransitionView.h; sourceTree = "<group>"; };
+		0423E4DD274404E900E547D4 /* UINavigationTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationTransitionView.m; sourceTree = "<group>"; };
+		0423E4DE274404E900E547D4 /* UIToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIToolbar.m; sourceTree = "<group>"; };
+		0423E4DF274404E900E547D4 /* UIViewControllerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerPrivate.h; sourceTree = "<group>"; };
 		04995A142743EFDE00D64B5E /* UIKitCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04995A172743EFDE00D64B5E /* UIKitCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitCore.h; sourceTree = "<group>"; };
 		04995A182743EFDE00D64B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -56,13 +78,24 @@
 		04995A162743EFDE00D64B5E /* UIKitCore */ = {
 			isa = PBXGroup;
 			children = (
+				0423E4D6274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.h */,
+				0423E4D8274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.m */,
+				0423E4D5274404E900E547D4 /* dyld_priv.h */,
 				04995A182743EFDE00D64B5E /* Info.plist */,
 				04995A172743EFDE00D64B5E /* UIKitCore.h */,
 				0423E4D12744021E00E547D4 /* UIKitDefines.h */,
+				0423E4DA274404E900E547D4 /* UILayoutContainerView.h */,
+				0423E4D9274404E900E547D4 /* UILayoutContainerView.m */,
+				0423E4DB274404E900E547D4 /* UILayoutContainerViewDelegate.h */,
 				0423E4C32744009E00E547D4 /* UINavigationController.h */,
 				0423E4C6274400F300E547D4 /* UINavigationController.m */,
+				0423E4DC274404E900E547D4 /* UINavigationTransitionView.h */,
+				0423E4DD274404E900E547D4 /* UINavigationTransitionView.m */,
+				0423E4D7274404E900E547D4 /* UIToolbar.h */,
+				0423E4DE274404E900E547D4 /* UIToolbar.m */,
 				0423E4CA2744018B00E547D4 /* UIViewController.h */,
 				0423E4CD274401C500E547D4 /* UIViewController.m */,
+				0423E4DF274404E900E547D4 /* UIViewControllerPrivate.h */,
 			);
 			path = UIKitCore;
 			sourceTree = "<group>";
@@ -74,10 +107,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0423E4E2274404E900E547D4 /* UIToolbar.h in Headers */,
 				0423E4D22744021E00E547D4 /* UIKitDefines.h in Headers */,
 				0423E4C42744009E00E547D4 /* UINavigationController.h in Headers */,
+				0423E4E0274404E900E547D4 /* dyld_priv.h in Headers */,
+				0423E4E7274404E900E547D4 /* UINavigationTransitionView.h in Headers */,
+				0423E4EA274404E900E547D4 /* UIViewControllerPrivate.h in Headers */,
 				0423E4CB2744018B00E547D4 /* UIViewController.h in Headers */,
 				04995A192743EFDE00D64B5E /* UIKitCore.h in Headers */,
+				0423E4E1274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.h in Headers */,
+				0423E4E6274404E900E547D4 /* UILayoutContainerViewDelegate.h in Headers */,
+				0423E4E5274404E900E547D4 /* UILayoutContainerView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,8 +190,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0423E4E4274404E900E547D4 /* UILayoutContainerView.m in Sources */,
 				0423E4CE274401C500E547D4 /* UIViewController.m in Sources */,
 				0423E4C7274400F300E547D4 /* UINavigationController.m in Sources */,
+				0423E4E9274404E900E547D4 /* UIToolbar.m in Sources */,
+				0423E4E3274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.m in Sources */,
+				0423E4E8274404E900E547D4 /* UINavigationTransitionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
