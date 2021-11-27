@@ -12,6 +12,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol UISplitViewControllerImpl <NSObject>
 
+- (instancetype)initWithCoder:(NSCoder *)coder;
+
 @end
 
 NS_ASSUME_NONNULL_END

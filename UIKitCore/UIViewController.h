@@ -12,6 +12,8 @@
 
 - (instancetype)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil;
 
+- (nullable instancetype)initWithCoder:(NSCoder *)coder;
+
 - (void)didMoveToParentViewController;
 
 + (BOOL)doesOverrideViewControllerMethod:(SEL)method inBaseClass:(Class)baseClass;
