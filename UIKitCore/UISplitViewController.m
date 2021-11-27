@@ -53,4 +53,9 @@
     return self;
 }
 
+- (void)encodeWithCoder:(NSCoder *)coder {
+    [super encodeWithCoder:coder];
+    [self->_impl encodeWithCoder:coder];
+}
+
 @end

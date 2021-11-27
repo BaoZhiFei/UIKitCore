@@ -14,6 +14,8 @@
 
 - (nullable instancetype)initWithCoder:(NSCoder *)coder;
 
+- (void)encodeWithCoder:(NSCoder *)coder;
+
 - (void)didMoveToParentViewController;
 
 + (BOOL)doesOverrideViewControllerMethod:(SEL)method inBaseClass:(Class)baseClass;
