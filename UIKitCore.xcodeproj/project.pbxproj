@@ -23,7 +23,23 @@
 		0423E4E8274404E900E547D4 /* UINavigationTransitionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423E4DD274404E900E547D4 /* UINavigationTransitionView.m */; };
 		0423E4E9274404E900E547D4 /* UIToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 0423E4DE274404E900E547D4 /* UIToolbar.m */; };
 		0423E4EA274404E900E547D4 /* UIViewControllerPrivate.h in Headers */ = {isa = PBXBuildFile; fileRef = 0423E4DF274404E900E547D4 /* UIViewControllerPrivate.h */; };
+		0481DE3827510BBD00F96801 /* UISplitViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 0481DE3627510BBD00F96801 /* UISplitViewController.h */; };
+		0481DE3927510BBD00F96801 /* UISplitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0481DE3727510BBD00F96801 /* UISplitViewController.m */; };
+		0481DE3E27510CB300F96801 /* UISplitViewControllerImpl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0481DE3C27510CB300F96801 /* UISplitViewControllerImpl.h */; };
+		0481DE442751105200F96801 /* UIDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = 0481DE422751105200F96801 /* UIDevice.h */; };
+		0481DE452751105200F96801 /* UIDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 0481DE432751105200F96801 /* UIDevice.m */; };
 		04995A192743EFDE00D64B5E /* UIKitCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 04995A172743EFDE00D64B5E /* UIKitCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04CDFCEA2751C21F00C58ADF /* UIResponder.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDFCE02751C21F00C58ADF /* UIResponder.m */; };
+		04CDFCEB2751C21F00C58ADF /* UIScene.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CDFCE12751C21F00C58ADF /* UIScene.h */; };
+		04CDFCEC2751C21F00C58ADF /* UIScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDFCE22751C21F00C58ADF /* UIScene.m */; };
+		04CDFCED2751C21F00C58ADF /* _UISceneLifecycleMultiplexer.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDFCE32751C21F00C58ADF /* _UISceneLifecycleMultiplexer.m */; };
+		04CDFCEE2751C21F00C58ADF /* UIMenuElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDFCE42751C21F00C58ADF /* UIMenuElement.m */; };
+		04CDFCEF2751C21F00C58ADF /* UIApplication.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CDFCE52751C21F00C58ADF /* UIApplication.m */; };
+		04CDFCF02751C21F00C58ADF /* UIMenuElement.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CDFCE62751C21F00C58ADF /* UIMenuElement.h */; };
+		04CDFCF12751C21F00C58ADF /* _UISceneLifecycleMultiplexer.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CDFCE72751C21F00C58ADF /* _UISceneLifecycleMultiplexer.h */; };
+		04CDFCF22751C21F00C58ADF /* UIApplication.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CDFCE82751C21F00C58ADF /* UIApplication.h */; };
+		04CDFCF32751C21F00C58ADF /* UIResponder.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CDFCE92751C21F00C58ADF /* UIResponder.h */; };
+		04CDFCF72751CB9A00C58ADF /* UISceneDefinitions.h in Headers */ = {isa = PBXBuildFile; fileRef = 04CDFCF62751CB9A00C58ADF /* UISceneDefinitions.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,9 +59,25 @@
 		0423E4DD274404E900E547D4 /* UINavigationTransitionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UINavigationTransitionView.m; sourceTree = "<group>"; };
 		0423E4DE274404E900E547D4 /* UIToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIToolbar.m; sourceTree = "<group>"; };
 		0423E4DF274404E900E547D4 /* UIViewControllerPrivate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIViewControllerPrivate.h; sourceTree = "<group>"; };
+		0481DE3627510BBD00F96801 /* UISplitViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISplitViewController.h; sourceTree = "<group>"; };
+		0481DE3727510BBD00F96801 /* UISplitViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UISplitViewController.m; sourceTree = "<group>"; };
+		0481DE3C27510CB300F96801 /* UISplitViewControllerImpl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UISplitViewControllerImpl.h; sourceTree = "<group>"; };
+		0481DE422751105200F96801 /* UIDevice.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIDevice.h; sourceTree = "<group>"; };
+		0481DE432751105200F96801 /* UIDevice.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIDevice.m; sourceTree = "<group>"; };
 		04995A142743EFDE00D64B5E /* UIKitCore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UIKitCore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		04995A172743EFDE00D64B5E /* UIKitCore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIKitCore.h; sourceTree = "<group>"; };
 		04995A182743EFDE00D64B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04CDFCE02751C21F00C58ADF /* UIResponder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIResponder.m; sourceTree = "<group>"; };
+		04CDFCE12751C21F00C58ADF /* UIScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIScene.h; sourceTree = "<group>"; };
+		04CDFCE22751C21F00C58ADF /* UIScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIScene.m; sourceTree = "<group>"; };
+		04CDFCE32751C21F00C58ADF /* _UISceneLifecycleMultiplexer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = _UISceneLifecycleMultiplexer.m; sourceTree = "<group>"; };
+		04CDFCE42751C21F00C58ADF /* UIMenuElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIMenuElement.m; sourceTree = "<group>"; };
+		04CDFCE52751C21F00C58ADF /* UIApplication.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UIApplication.m; sourceTree = "<group>"; };
+		04CDFCE62751C21F00C58ADF /* UIMenuElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIMenuElement.h; sourceTree = "<group>"; };
+		04CDFCE72751C21F00C58ADF /* _UISceneLifecycleMultiplexer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = _UISceneLifecycleMultiplexer.h; sourceTree = "<group>"; };
+		04CDFCE82751C21F00C58ADF /* UIApplication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIApplication.h; sourceTree = "<group>"; };
+		04CDFCE92751C21F00C58ADF /* UIResponder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UIResponder.h; sourceTree = "<group>"; };
+		04CDFCF62751CB9A00C58ADF /* UISceneDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UISceneDefinitions.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,17 +112,33 @@
 			children = (
 				0423E4D6274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.h */,
 				0423E4D8274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.m */,
+				04CDFCE72751C21F00C58ADF /* _UISceneLifecycleMultiplexer.h */,
+				04CDFCE32751C21F00C58ADF /* _UISceneLifecycleMultiplexer.m */,
 				0423E4D5274404E900E547D4 /* dyld_priv.h */,
 				04995A182743EFDE00D64B5E /* Info.plist */,
+				04CDFCE82751C21F00C58ADF /* UIApplication.h */,
+				04CDFCE52751C21F00C58ADF /* UIApplication.m */,
+				0481DE422751105200F96801 /* UIDevice.h */,
+				0481DE432751105200F96801 /* UIDevice.m */,
 				04995A172743EFDE00D64B5E /* UIKitCore.h */,
 				0423E4D12744021E00E547D4 /* UIKitDefines.h */,
 				0423E4DA274404E900E547D4 /* UILayoutContainerView.h */,
 				0423E4D9274404E900E547D4 /* UILayoutContainerView.m */,
 				0423E4DB274404E900E547D4 /* UILayoutContainerViewDelegate.h */,
+				04CDFCE62751C21F00C58ADF /* UIMenuElement.h */,
+				04CDFCE42751C21F00C58ADF /* UIMenuElement.m */,
 				0423E4C32744009E00E547D4 /* UINavigationController.h */,
 				0423E4C6274400F300E547D4 /* UINavigationController.m */,
 				0423E4DC274404E900E547D4 /* UINavigationTransitionView.h */,
 				0423E4DD274404E900E547D4 /* UINavigationTransitionView.m */,
+				04CDFCE92751C21F00C58ADF /* UIResponder.h */,
+				04CDFCE02751C21F00C58ADF /* UIResponder.m */,
+				04CDFCE12751C21F00C58ADF /* UIScene.h */,
+				04CDFCE22751C21F00C58ADF /* UIScene.m */,
+				04CDFCF62751CB9A00C58ADF /* UISceneDefinitions.h */,
+				0481DE3627510BBD00F96801 /* UISplitViewController.h */,
+				0481DE3727510BBD00F96801 /* UISplitViewController.m */,
+				0481DE3C27510CB300F96801 /* UISplitViewControllerImpl.h */,
 				0423E4D7274404E900E547D4 /* UIToolbar.h */,
 				0423E4DE274404E900E547D4 /* UIToolbar.m */,
 				0423E4CA2744018B00E547D4 /* UIViewController.h */,
@@ -107,15 +155,24 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0481DE3E27510CB300F96801 /* UISplitViewControllerImpl.h in Headers */,
 				0423E4E2274404E900E547D4 /* UIToolbar.h in Headers */,
+				04CDFCF02751C21F00C58ADF /* UIMenuElement.h in Headers */,
+				04CDFCF22751C21F00C58ADF /* UIApplication.h in Headers */,
+				04CDFCEB2751C21F00C58ADF /* UIScene.h in Headers */,
 				0423E4D22744021E00E547D4 /* UIKitDefines.h in Headers */,
+				04CDFCF72751CB9A00C58ADF /* UISceneDefinitions.h in Headers */,
 				0423E4C42744009E00E547D4 /* UINavigationController.h in Headers */,
+				04CDFCF32751C21F00C58ADF /* UIResponder.h in Headers */,
 				0423E4E0274404E900E547D4 /* dyld_priv.h in Headers */,
 				0423E4E7274404E900E547D4 /* UINavigationTransitionView.h in Headers */,
+				0481DE442751105200F96801 /* UIDevice.h in Headers */,
 				0423E4EA274404E900E547D4 /* UIViewControllerPrivate.h in Headers */,
+				0481DE3827510BBD00F96801 /* UISplitViewController.h in Headers */,
 				0423E4CB2744018B00E547D4 /* UIViewController.h in Headers */,
 				04995A192743EFDE00D64B5E /* UIKitCore.h in Headers */,
 				0423E4E1274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.h in Headers */,
+				04CDFCF12751C21F00C58ADF /* _UISceneLifecycleMultiplexer.h in Headers */,
 				0423E4E6274404E900E547D4 /* UILayoutContainerViewDelegate.h in Headers */,
 				0423E4E5274404E900E547D4 /* UILayoutContainerView.h in Headers */,
 			);
@@ -192,10 +249,17 @@
 			files = (
 				0423E4E4274404E900E547D4 /* UILayoutContainerView.m in Sources */,
 				0423E4CE274401C500E547D4 /* UIViewController.m in Sources */,
+				04CDFCEC2751C21F00C58ADF /* UIScene.m in Sources */,
+				04CDFCEF2751C21F00C58ADF /* UIApplication.m in Sources */,
+				0481DE3927510BBD00F96801 /* UISplitViewController.m in Sources */,
+				04CDFCEA2751C21F00C58ADF /* UIResponder.m in Sources */,
+				0481DE452751105200F96801 /* UIDevice.m in Sources */,
 				0423E4C7274400F300E547D4 /* UINavigationController.m in Sources */,
+				04CDFCEE2751C21F00C58ADF /* UIMenuElement.m in Sources */,
 				0423E4E9274404E900E547D4 /* UIToolbar.m in Sources */,
 				0423E4E3274404E900E547D4 /* _UINavigationControllerVisualStyleFactory.m in Sources */,
 				0423E4E8274404E900E547D4 /* UINavigationTransitionView.m in Sources */,
+				04CDFCED2751C21F00C58ADF /* _UISceneLifecycleMultiplexer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,7 +307,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -304,6 +368,7 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
